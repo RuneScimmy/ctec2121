@@ -4,7 +4,17 @@ float add (float x, float y)
 {
     return x + y;
 }
-   
+  
+float sub (float x, float y)
+{
+    return x - y;
+}
+
+float times (float x, float y)
+{
+    return x * y;
+}
+
 int main()
 {
     float a, b, r;
@@ -17,7 +27,13 @@ int main()
            case '+' : r = add(a,b);
                       break;
            case 'q' : break;
-                    
+             
+           case '-' : r = sub(a,b);
+                      break;
+                      
+           case '*' : r = times(a,b);
+                         break;           
+           	   
            default  : op='?';
        }
        if (op=='?')
