@@ -20,7 +20,7 @@ int main()
     float a, b, r;
     char op;
     do {
-       printf("nnumber  op  number?  ");
+       printf("number  op  number?  ");
        scanf(" %f %c %f", &a, &op, &b);
        switch (op)
        {
