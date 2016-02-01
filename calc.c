@@ -15,6 +15,16 @@ float times (float x, float y)
     return x * y;
 }
 
+float div (float x, float y)
+{
+    return x / y;
+}
+
+float rem (float x, float y)
+{
+	return y - x;
+}	
+
 int main()
 {
     float a, b, r;
@@ -32,7 +42,13 @@ int main()
                       break;
                       
            case '*' : r = times(a,b);
-                         break;           
+                      break;  
+                         
+           case '/' : r = div(a,b);
+                      break;        
+                        
+           case 're' : r = rem(a,b);
+           	      break;
            	   
            default  : op='?';
        }
