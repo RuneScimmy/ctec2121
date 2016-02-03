@@ -3,6 +3,8 @@
 =======
 //conflict line 
 >>>>>>> conflict
+
+//This is the second line causing issue in the <*master/conflict> branch
 #include <stdio.h>
 
 float add (float x, float y)
