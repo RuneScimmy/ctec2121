@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> f5b5b373341b7770e8fa8a971cb52a2183612db5
 #include <stdio.h>
 
 float add (float x, float y)
