@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 //conflict line
+=======
+//conflict line 
+>>>>>>> conflict
 #include <stdio.h>
 
 float add (float x, float y)
