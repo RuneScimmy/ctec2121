@@ -25,8 +25,15 @@ float div (float x, float y)
 float rem (float x, float y)
 {
 	return y - x;
-}	
+}
 
+float fun (float x, float y,)	
+{
+	if (x > y) 
+        return x; 
+        else 
+	return y; 
+}
 int main()
 {
     float a, b, r;
@@ -49,9 +56,12 @@ int main()
            case '/' : r = div(a,b);
                       break;        
                         
-           case 're' : r = rem(a,b);
+           case 're': r = rem(a,b);
            	      break;
            	   
+           case 'fun': r = fun(a,b);
+                       break; 
+
            default  : op='?';
        }
        if (op=='?')
